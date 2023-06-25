@@ -56,7 +56,7 @@
 }
 
 .navbar .search-bar  {
-  width: 500px;
+  width: 400px;
 
   padding: 5px;
   border: none;
@@ -86,6 +86,7 @@
 
 .footer {
   color: white;
+  
   padding: 25px;
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -136,18 +137,24 @@
   background-color: black;
   color: white;
 }
-/* ========================================= */
+
 /* =========contact us ========= */
 .contactus {
-  margin: 0;
-  padding: 0;
-  height: 70vh;
+ margin-top:20px;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* ==================== */
+.privacy{
+ 
+  margin: 10px;;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .product-link {
   text-decoration: none !important;
   color: black !important;
@@ -173,5 +180,6 @@
 .dashboard-menu h4 {
   background-color: #434343 !important;
   color: white;
-  padding: 20px 0px;
+  padding: 20px ;
+  
 }
