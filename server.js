@@ -16,8 +16,8 @@ dotenv.config();
 //databse config
 connectDB();
 
-const_filename = fileURLToPath (import.meta.url);
-const dirname = path.dirname(__filename);
+const __filename = fileURLToPath (import.meta.url);
+const __dirname = path.dirname(__filename);
 
 //rest object
 const app = express();
