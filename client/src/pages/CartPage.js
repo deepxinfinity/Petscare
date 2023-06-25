@@ -51,7 +51,7 @@ const CartPage = () => {
       try {
         // Set the loading state to indicate processing
         setLoading(true);
-            console.log("HEy");
+        //    console.log("HEy");
         // Create the order on the server
         let buyerid=auth.user._id
        console.log(buyerid)
@@ -64,7 +64,7 @@ const CartPage = () => {
 cart.map((i) => {
   total += i.price;
 });
-console.log(`${process.env.RAZORPAY_KEY_ID}`);
+
         // Call the Razorpay checkout function to initiate payment
         const options = {
           key: 'rzp_test_pV4PbUj2Rgjt17',

@@ -17,7 +17,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      console.log(name,email,password,phone,address,answer);
+     // console.log(name,email,password,phone,address,answer);
       const res = await axios.post(`${process.env.REACT_APP_API}/api/v1/auth/register`, {
         name,
         email,
